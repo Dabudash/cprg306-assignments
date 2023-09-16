@@ -9,9 +9,9 @@ export default function Page() {
       <StudentInfo />
       <br></br>
       <nav>
-        <link href="/week2">week2
+        <Link href="/week2"> week2
           
-        </link>
+        </Link>
       
       </nav>
     </main>
