@@ -1,5 +1,6 @@
 import Link from "next/link"
 import StudentInfo from "./StudentInfo"
+import ItemList from "./week3/item-list";
 
 export default function Page() {
   return (
@@ -10,7 +11,9 @@ export default function Page() {
       <br></br>
       <nav>
         <Link href="/week2"> week2
-          
+        </Link>
+        <p></p>
+        <Link href="/week3"> week3
         </Link>
       
       </nav>
