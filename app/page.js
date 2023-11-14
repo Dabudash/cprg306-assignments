@@ -1,7 +1,6 @@
 import Link from "next/link"
 import StudentInfo from "./StudentInfo"
-import ItemList from "./week3/item-list";
-import NewEvent from "./week4/new-item";
+
 export default function Page() {
   return (
     <main>
@@ -18,6 +17,10 @@ export default function Page() {
         <p></p>
         <Link href="/week4"> week4
         </Link>
+        <p></p>
+        <Link href="/week5"> week5
+        </Link>
+        <p></p>
       
       </nav>
     </main>
