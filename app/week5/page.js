@@ -1,16 +1,15 @@
 import ItemList from "./item-list";
-import Link from "next/link";
-import Header from "./header";
 
-export default function Page(){
+export default function Page() {
     return(
         <main>
-            <h1>
-                <Header />
-            </h1>
-            <div>
-                <ItemList />
-            </div>
+            <h1>My Shopping List </h1>
+            <p></p>
+            <ItemList />
+           
         </main>
     );
+    
+
+
 }
