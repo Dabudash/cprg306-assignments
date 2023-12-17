@@ -6,7 +6,7 @@ export default function StudentInfo() {
       <div>
         <h2>Name: Justine Barredo </h2>
         <p>Course: CPRG 306 </p>
-        <p>Github: <Link href={"https://github.com/Dabudash"} className='underline'>https://github.com/JeanXristianPascua</Link></p>
+        <p>Github: <Link href={"https://github.com/Dabudash"} className='underline'>https://github.com/Dabudash</Link></p>
       </div>
     </>
   );
